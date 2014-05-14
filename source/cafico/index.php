@@ -46,9 +46,10 @@
 						</div>
 					</div>
 				</article>
-			</div>
+				
 			<div class="slogan">
 				<h1>Centro de Arbitraje Financiero Inmobiliario Comercial del Perú</h1>
+			</div>
 			</div>
 		</section>
 		<footer>
