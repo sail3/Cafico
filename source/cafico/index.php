@@ -1,20 +1,19 @@
-<!doctype html>
-<html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<title>Cafico Peru</title>
-		<link rel="stylesheet" href="css/styles.css">
-	</head>
-	<body>
+<?php 
+$page_title = "Cafico Perú";
+include('templates/header.php');
+ ?>
 		<div id="wrapper">
 			<header>
-				<div class="logo"><img src="images/logo.jpg" alt="Cafico peru"></div>
+				<div class="logo">
+					<div class="bisel"></div>
+					<img src="images/logo.jpg" alt="Cafico peru">
+				</div>
 				<ul class="menu-header">
-					<li class="menu-header-first"><a href="javascript:">INICIO</a></li>
-					<li><a href="javascript:">FINANCIERO</a></li>
+					<li class="menu-header-first"><a href="index.php">INICIO</a></li>
+					<li><a href="financiero.php">FINANCIERO</a></li>
 					<li><a href="javascript:">INMOBILIARIO</a></li>
 					<li><a href="javascript:">COMERCIAL</a></li>
-					<li><a href="javascript:">CONTACTENOS</a></li>
+					<li><a href="contactenos.php">CONTACTENOS</a></li>
 				</ul>
 				<div class="social-media">
 					<div class="sm-item">
@@ -29,7 +28,23 @@
 			</header>
 			<section>
 				<div class="slide-show">
-					<div class="slide"><img src="images/slide-image.jpg" alt="imagen slideshow"></div>
+					<div id="slide" class="images">
+						<img src="images/slide-image01.jpg" width="1000" height="428" class="first-slide"alt="imagen slideshow">
+						<img src="images/slide-image02.jpg" width="1000" height="428" alt="imagen slideshow">
+						<img src="images/slide-image03.jpg" width="1000" height="428" alt="imagen slideshow">
+					</div>
+					<div class="controls">
+						<div id="control-left">
+							<a id="prev" href="javascript:">
+								<img src="images/arrow.png" alt="prev">
+							</a>
+						</div>
+						<div id="control-right">
+							<a id="next" href="javascript:">
+								<img src="images/arrow.png" alt="next">
+							</a>
+						</div>
+					</div>
 				</div>
 			</section>
 		</div>

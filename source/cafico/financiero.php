@@ -1,43 +1,25 @@
 <?php 
 $page_title = "Financiero";
+$ruta = "financiero";
 include('templates/header.php');
  ?>
  <div class="wrapper">
-	<header>
-		<div class="logo"><img src="images/logo.jpg" alt="Cafico peru"></div>
-		<ul class="menu-header">
-			<li class="menu-header-first"><a href="javascript:">INICIO</a></li>
-			<li><a href="javascript:">FINANCIERO</a></li>
-			<li><a href="javascript:">INMOBILIARIO</a></li>
-			<li><a href="javascript:">COMERCIAL</a></li>
-			<li><a href="javascript:">CONTACTENOS</a></li>
-		</ul>
-		<div class="social-media">
-			<div class="sm-item">
-				<div class="facebook">
-					<a href="http://facebook.com">
-						<img src="images/social-icons.png" alt="Facebook">
-					</a>
-				</div>
-				<p>VISITANOS</p>
-			</div>
-		</div>
-		<div class="header-slogan">
-			<h1>Centro de Arbitraje Financiero Inmobiliario Comercial del Perú</h1>
-		</div>
-	</header>
-	<section class="financiero-content">
+	<?php include('templates/menu-header.php'); ?>
+	<nav class="menu-financiero">
 		<ul class="actividades">
-			<li>ARBITRAJE COMERCIAL</li>
-			<li>CÓMO ACCEDER AL SISTEMA</li>
-			<li>EMBARGOS Y REMATES</li>
-			<li>MODELO DECLAUSURA ARBITRAL</li>
-			<li>PREGUNTAS FRECUENTES</li>
-			<li>COSTOS DE ARBITRAJE</li>
-		</ul><div class="clear"></div>
+			<li><a href="#">ARBITRAJE COMERCIAL  -</a></li>
+			<li><a href="#">CÓMO ACCEDER AL SISTEMA  -</a></li>
+			<li><a href="#">EMBARGOS Y REMATES  -</a></li>
+			<li><a href="#">MODELO DECLAUSURA ARBITRAL  -</a></li>
+			<li><a href="#">PREGUNTAS FRECUENTES  -</a></li>
+			<li><a href="#">COSTOS DE ARBITRAJE  -</a></li>
+		</ul>	
+	</nav>
+	<div class="clear"></div>
+	<section class="financiero-content">
 		<div class="item">
 			<div class="item-imagen">
-				<img src="images/slide-image.jpg" alt="Imagen">
+				<img src="images/slide-image01.jpg" alt="Imagen">
 			</div>
 			<div class="item-content">
 				<h3>ARBITRAJE COMERCIAL</h3>
@@ -47,7 +29,7 @@ include('templates/header.php');
 		</div><div class="clear"></div>
 		<div class="item">
 			<div class="item-imagen">
-				<img src="images/slide-image.jpg" alt="Imagen">
+				<img src="images/slide-image01.jpg" alt="Imagen">
 			</div>
 			<div class="item-content">
 				<h3>ARBITRAJE COMERCIAL</h3>
@@ -57,7 +39,7 @@ include('templates/header.php');
 		</div><div class="clear"></div>
 		<div class="item">
 			<div class="item-imagen">
-				<img src="images/slide-image.jpg" alt="Imagen">
+				<img src="images/slide-image01.jpg" alt="Imagen">
 			</div>
 			<div class="item-content">
 				<h3>ARBITRAJE COMERCIAL</h3>
@@ -67,7 +49,7 @@ include('templates/header.php');
 		</div><div class="clear"></div>
 		<div class="item">
 			<div class="item-imagen">
-				<img src="images/slide-image.jpg" alt="Imagen">
+				<img src="images/slide-image01.jpg" alt="Imagen">
 			</div>
 			<div class="item-content">
 				<h3>ARBITRAJE COMERCIAL</h3>
@@ -77,7 +59,7 @@ include('templates/header.php');
 		</div><div class="clear"></div>
 		<div class="item">
 			<div class="item-imagen">
-				<img src="images/slide-image.jpg" alt="Imagen">
+				<img src="images/slide-image01.jpg" alt="Imagen">
 			</div>
 			<div class="item-content">
 				<h3>ARBITRAJE COMERCIAL</h3>
@@ -99,3 +81,5 @@ include('templates/header.php');
  <?php 
 include('templates/footer.php');
   ?>
+</body>
+</html>
